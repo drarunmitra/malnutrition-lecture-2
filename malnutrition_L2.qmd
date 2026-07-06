@@ -405,19 +405,17 @@ Students often learn only the 2013 SAM guidance — flag that the framing has sh
 
 ## Triage: Which Pathway? {.smaller}
 
-Two questions decide everything: **appetite** (RUTF appetite test) and **medical complications** (danger signs).
+Two questions set the route: **appetite** (RUTF test) and **complications** (no appetite, severe oedema +++, infection, or age <6 months).
 
 ```{mermaid}
 flowchart TD
-  A[Child with SAM] --> B{Appetite test passed<br/>AND no complications?}
-  B -->|Yes: uncomplicated| C[Community-based care<br/>Outpatient + RUTF]
-  B -->|No: complicated| D[Facility-based care<br/>NRC / inpatient]
+  A[Child with SAM] --> B{Appetite OK and no complications?}
+  B -->|Yes| C[Community care: outpatient + RUTF]
+  B -->|No| D[Facility care: NRC / inpatient]
 ```
 
-Complications include: no appetite, severe oedema (+++), infection/danger signs, or age <6 months.
-
 ::: {.notes}
-This decision tree is the single most useful slide for the case. Uncomplicated SAM with appetite → home with RUTF; complicated → admit. Our case (oedema + diarrhoea, infant) will route to the facility. ~3 min.
+This decision tree is the single most useful slide for the case. Uncomplicated SAM with appetite goes home with RUTF; complicated is admitted. Our case (oedema + diarrhoea, infant) routes to the facility. ~3 min.
 :::
 
 ---
@@ -466,7 +464,7 @@ These three are the immediate killers. ReSoMal has lower sodium and higher potas
 
 ---
 
-## 10 Steps (4–6): Correct the Internal Milieu
+## 10 Steps (4–6): Correct the Internal Milieu {.smaller}
 
 4. Correct **electrolytes** (give K⁺ and Mg²⁺; restrict Na⁺)
 5. Treat **infection** — broad-spectrum antibiotics, even without obvious signs
@@ -800,15 +798,18 @@ This is the AETCOM/attitudes-ethics-communication tie-in: the physician's role s
 
 ---
 
-## Back to Our Case
+## Back to Our Case {.smaller}
 
 ::: {.callout-important appearance="simple"}
 9-month-old · MUAC 10.5 cm · bilateral pedal oedema · 3 days of diarrhoea
 :::
 
-- **SAM?** Yes — MUAC < 11.5 cm *and* bilateral oedema (either alone would suffice)
-- **Complicated?** Yes — oedema with intercurrent illness (and infant considerations)
-- **Pathway:** refer to the **NRC** → WHO 10 steps → **F-75** first (no iron), treat infection, ReSoMal for dehydration → F-100/RUTF for catch-up → discharge on MUAC ≥ 12.5 cm with follow-up
+- **SAM?** Yes: MUAC < 11.5 cm *and* bilateral oedema (either alone would suffice)
+- **Complicated?** Yes: oedema with intercurrent illness, plus infant considerations
+- **Pathway:** complicated SAM, so refer to the **NRC**
+  - Stabilise: **F-75** (no iron), treat infection, ReSoMal for dehydration
+  - Rehabilitate: **F-100 / RUTF** for catch-up growth
+  - Discharge on MUAC ≥ 12.5 cm, then follow up to prevent relapse
 
 ::: {.notes}
 Walk the case through the exact framework built today. This is your integrated assessment moment. ~3 min.
@@ -816,7 +817,7 @@ Walk the case through the exact framework built today. This is your integrated a
 
 ---
 
-## Key Takeaways
+## Key Takeaways {.smaller}
 
 - PEM presents as marasmus, kwashiorkor, or mixed; **oedema** is the key differentiator, and **SAM = WHZ < -3 / MUAC < 11.5 / oedema (any one)**
 - **ABCD** gives a complete assessment; MUAC and oedema enable screening without a scale
